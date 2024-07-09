@@ -27,7 +27,7 @@ try:
     search_bar.send_keys(Keys.RETURN)
 
     # Waiting for the search results page to load
-    time.sleep(10)
+    time.sleep(7)
 
     # Verifying that the search results page has loaded
     #assert "mobile" in driver.title
